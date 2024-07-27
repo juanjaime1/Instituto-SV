@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body.contacto{
+    background-color: rgb(228, 226, 226);
+
+}
+   body.contacto header div.inicio h3{
+    position: relative;
+    top: -85px;
+    color: white;
+    margin: 20px;
+    border-style: ridge;
+    width: 10%;
+    border-radius: 5px;
+    padding: 5px;
+}
+body.contacto header div.inicio h3 a{
+    text-decoration: none;
+    color: white;
+}
+body.contacto header h2{
+    font-size: 40px;
+   text-align: center;
+    background-color: rgb(31, 54, 72);
+    color: white;
+    padding: 20px 0
+}
+body.contacto main section{
+    padding: 30px;
+}
+    
+
+body.contacto main section form{
+    gap: 20px;
+    border-radius: 20px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+body.contacto main section form input, body.contacto main section form textarea{
+
+    margin-bottom: 16px;
+    padding: 8px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    width: 40%;
+
+}
+body.contacto main section form textarea{
+
+height: 100px;
+}
+body.contacto main section form div.button{
+display: flex;
+flex-direction: row;
+justify-content: center;
+}
+
+body.contacto main section form .button-container, body.contacto main section form .button-delete {
+padding: 8px;
+    border: none;
+    background-color: rgb(31, 54, 72);
+    color: white;
+    cursor: pointer;
+    width: 100px;
+    margin: 0 10px;
+ }
+
+ body.contacto main section form div.button .button-container:hover{
+    background-color: rgb(105, 144, 174);
+ }
+ 
+
+ body.contacto main section form div.button .button-delete{
+    background-color: rgb(117, 12, 12)
+ }
+ body.contacto main section form div.button .button-delete:hover{
+    background-color: rgb(90, 27, 27) 
+ }

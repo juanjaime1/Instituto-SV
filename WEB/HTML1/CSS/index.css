@@ -1,0 +1,166 @@
+    
+body.index{
+
+    background-image: url(./IMG/Star_of_life.svg.png);
+    background-color: lightblue;
+   background-size: 100%;
+     font-family: "Montserrat", sans-serif;
+     font-optical-sizing: auto;
+     font-style: normal;
+   }
+
+   header{
+    color: aliceblue ;
+    display: block;
+    position: relative;
+    justify-content: center;
+    padding: 15px;
+   }
+    body.index header h1.title{
+        font-weight: 200;
+    background: black;
+    opacity: 0.7;
+    width: 200px;
+    } 
+
+    body.index header h2.fixed{
+        position:fixed;
+        color: rgb(71, 11, 11);
+        top: 0;
+        right: 0;
+        opacity: 0.2;
+        margin: 10px;
+        padding: 10px;
+    }
+   
+   .nav-container{
+    background-color: grey;
+    
+   }
+
+   nav ul{
+   list-style: none;
+   display: flex;
+   justify-content: left;
+   position: relative;
+   left: -41px;
+   
+}
+    nav ul li{
+        padding: 4px;
+    margin: 8px;
+    }
+    
+    nav ul li a{text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 8px 16px;
+    }
+    
+    nav ul li a:hover{
+        background-color: white;;
+        color: rgb(31, 54, 72);
+        border-radius: 10px;
+    }
+  
+
+    body.index main section.mas-vendidos{
+        text-align:-webkit-center
+    }
+
+    body.index main section.mas-vendidos h2{
+    width: 300px;
+    background-color: grey;
+    }
+
+    body.index main section.mas-vendidos article.contenedor-cursos{
+        display: flex;
+        border: outset;
+        width: 60%;
+        color: white;
+        background-color: grey;
+        opacity: 0.9;
+        margin: 10px;
+        padding: 10px;
+        flex-flow: wrap-reverse;
+        justify-content: start;
+        flex-direction: row;
+        gap: 15px;
+    }
+    body.index main section.mas-vendidos article.contenedor-cursos img{
+        color: white;
+        border-radius: 15px;
+        width: 30%;
+       
+    }
+    body.index main section.mas-vendidos article.contenedor-cursos img a{
+        width: 20%;
+        
+    }
+    body.index main section.mas-vendidos article.contenedor-cursos h3{
+        padding: 10px 0;
+        background-color: grey;
+        width: 30%;
+        color: white;
+
+    }
+
+    body.index main section.about-us p{
+        padding: 2px;
+        margin: 15px;
+        background-color: grey;
+        color: white;
+        font-size: 25px;
+       
+    }
+
+span.red-span{
+color: white;
+background: brown;
+}
+body.index main section.about-us{
+display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        text-align:start ;
+}
+    /* body.index main section.mas-vendidos .contenedor-cursos div.cards{
+       
+        }
+     */
+    body.index main section.contacto{
+        color: white;
+        bottom: 0;
+    }
+    .datos-contacto{
+        margin: 20px;
+    }
+    
+    .linea-contacto{
+        list-style: none;
+        font-size: 20px;
+        color: white;
+        background-color: rgb(58, 10, 10);
+
+    }
+
+body.index footer.footer-container div ul li a{
+    text-decoration: none;
+    color: white;
+}
+body.index footer.footer-container div.copy-div p.copy{
+    background-color: rgb(58, 10, 10);
+width: 100%;
+position: relative;
+bottom: -157px;
+left: 50%;
+}
+
+    .footer-container{
+        display: flex;
+        bottom: 0;
+        width: 100%;
+        background-color: rgb(58, 10, 10);
+        color: white;
+
+   }
