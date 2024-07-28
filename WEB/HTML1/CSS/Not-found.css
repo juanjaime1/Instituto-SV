@@ -1,0 +1,17 @@
+body.proximamente{
+    background-image: url(IMG/paramedicos.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+     }
+body.proximamente header h1, body.proximamente main section, body.proximamente footer{
+     text-align: center;
+     background-color: grey;
+}
+
+     body.proximamente footer{
+        bottom: 0px;
+        position: 50%;
+        
+     }

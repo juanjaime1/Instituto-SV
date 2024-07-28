@@ -11,7 +11,7 @@ body.index{
 
    header{
     color: aliceblue ;
-    display: block;
+    /* display: block; */
     position: relative;
     justify-content: center;
     padding: 15px;
@@ -38,12 +38,11 @@ body.index{
     
    }
 
-   nav ul{
-   list-style: none;
-   display: flex;
-   justify-content: left;
-   position: relative;
-   left: -41px;
+   body.index header div.nav-container nav ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    
    
 }
     nav ul li{
@@ -82,29 +81,44 @@ body.index{
         opacity: 0.9;
         margin: 10px;
         padding: 10px;
-        flex-flow: wrap-reverse;
+        /* flex-flow: wrap-reverse;
         justify-content: start;
         flex-direction: row;
-        gap: 15px;
+        gap: 15px; */
     }
     body.index main section.mas-vendidos article.contenedor-cursos img{
         color: white;
         border-radius: 15px;
-        width: 30%;
+        width: 40%;
        
     }
-    body.index main section.mas-vendidos article.contenedor-cursos img a{
+    body.index main section.mas-vendidos article.contenedor-cursos a{
         width: 20%;
+        color: white;
+        text-decoration: none;
         
-    }
-    body.index main section.mas-vendidos article.contenedor-cursos h3{
+}
+        
+        body.index main section.mas-vendidos article.contenedor-cursos h3{
         padding: 10px 0;
         background-color: grey;
         width: 30%;
         color: white;
 
     }
+    body.index main section.view-more article.viewmore div.more img{
+        width: 25%;
+    }
 
+    body.index main section.view-more article.viewmore div.more h3{
+        background: black;
+        width: 20%;
+    }
+    body.index main section.view-more article.viewmore div.more a{
+    text-decoration: none;
+    color: white;
+    
+}
     body.index main section.about-us p{
         padding: 2px;
         margin: 15px;
@@ -113,6 +127,15 @@ body.index{
         font-size: 25px;
        
     }
+
+    body.index main article.maps span{
+        color: white;
+        background-color: grey;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+    
 
 span.red-span{
 color: white;
@@ -138,7 +161,7 @@ display: flex;
     
     .linea-contacto{
         list-style: none;
-        font-size: 20px;
+        font-size: 25px;
         color: white;
         background-color: rgb(58, 10, 10);
 
@@ -148,19 +171,31 @@ body.index footer.footer-container div ul li a{
     text-decoration: none;
     color: white;
 }
-body.index footer.footer-container div.copy-div p.copy{
-    background-color: rgb(58, 10, 10);
-width: 100%;
-position: relative;
-bottom: -157px;
-left: 50%;
+body.index footer.footer-container div.copy-div{
+    color: white;
+    text-align: center;
+    
 }
 
     .footer-container{
-        display: flex;
-        bottom: 0;
         width: 100%;
         background-color: rgb(58, 10, 10);
         color: white;
 
    }
+
+
+   @media screen and (max-width: 650px){
+
+       body.index header div.nav-container nav ul{
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+    }
+    body.index main section.mas-vendidos article.contenedor-cursos img{
+        width: 60%;
+    }
+        body.index main section.view-more article.viewmore div.more img{
+            width: 30%;
+        }
+}
