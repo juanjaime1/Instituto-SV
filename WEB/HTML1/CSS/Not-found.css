@@ -5,9 +5,25 @@ body.proximamente{
     background-repeat: no-repeat;
     background-size: cover;
      }
+     body.proximamente header div.inicio h3{
+          position: fixed;
+          color: white;
+          margin: 2px;
+          border-style: ridge;
+          width: 10%;
+          border-radius: 5px;
+          padding: 12px;
+      }
+      body.proximamente header div.inicio h3 a{
+          text-decoration: none;
+          color: white;
+      }
 body.proximamente header h1, body.proximamente main section, body.proximamente footer{
+     display: flex;
+     justify-content: center;
      text-align: center;
-     background-color: grey;
+     background-color: #6c1f1f;
+     align-items: center;
 }
 
      body.proximamente footer{
@@ -15,3 +31,5 @@ body.proximamente header h1, body.proximamente main section, body.proximamente f
         position: 50%;
         
      }
+
+    
