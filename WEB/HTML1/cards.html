@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sugerencias</title>
+    <link rel="stylesheet" href="CSS/cards.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h2> Nuestros cursos</h2>
+    </header>
+
+    <div class="ocards">
+        <section class="nuestros-cursos">
+        <a href=""> <img  src="CSS/IMG/Curso-RCP-Bomberos2022.jpg" alt="RCP curso"> <h3>Curso RCP Completo</h3></a>
+        <p>Aprendelo en sólo 3 meses! 1 clase semanal, durante 12 semanas de capacitación</p>
+    <p>Los paros cardiorespiratorios nunca avisan! Por eso te ofrecemos el mejor curso que literalmente <span class="red-span">SALVA VIDAS! </span></p>
+  </section>
+  <section class="nuestros-cursos">
+        <a href=""> <img  src="CSS/IMG/primerosauxilios640.jpg" alt="Paramédico profesional"> <h3>Curso de Paramédico Profesional</h3></a>
+        <p>Aprendelo en sólo 30 meses! 1 clase semanal, durante 130 semanas de capacitación junto a lso mejores profesionales de la salud</p>
+      <p>Ser paramédico es estar preparado en todo momento para cualquier <span class="red-span">EMERGENCIA MÉDICA</span>; Acá vas a poder profesionarlizarte y conseguir una amplia salida laboral!</p>
+  </section>
+  <section class="nuestros-cursos">
+        <a href=""> <img  src="CSS/IMG/facturacion.jpg" alt="Facturación Médica"> <h3>Curso de Facturación Médica</h3></a>
+        <p>En este curso vas a aprender a comprender e interpretar documentos médicos omo historial clínico del paciente, procesos con obras sociales, eipcrisis, prácticas ambulatorias y quirúrgicas, etc.</p>
+        <p>Aprendelo en sólo 10 meses! 1 clase semanal, durante 70 semanas de capacitación</p>
+    </div>
+
+
+    <div id="ncards">
+       
+    </div>
+
+    <div id="ncards-form">
+        <h3>Proponer nuevos cursos</h3>
+        <form>
+            <label for="title">Nombre del curso</label>
+            <input type="text" id="title-ncard" name="title" placeholder="Nombre" required /> 
+            <br/>
+
+            <label for="description">Descripción</label>
+            <input type="text" id="description-ncard" name="description" placeholder="Descripción" required/>
+            <br/>
+
+            <label for="image">Url de Imagen</label>
+            <input type="url" id="image-ncard" name="image" placeholder="https://picsum.photos/200"/>
+            <br/>
+
+            <label for="card-bg-color">Color de fondo</label>
+            <input type="color"
+            name="card-bg-color"
+            value="#ffffff"/>
+            <br/>
+
+            <label for="card-border-color">Color del borde</label>
+            <input type="color"
+            name="card-border-color"
+            value="#000000"/>
+            <br/>
+
+            <button type="submit">Añadir tarjeta</button>
+
+        </form>
+    </div>
+    
+<script src="JS/script.js"></script>
+</body>
+</html>
