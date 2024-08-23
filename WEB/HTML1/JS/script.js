@@ -1,4 +1,4 @@
-document.getElementById("ncards-form").addEventListener("submit"), function (event) {
+document.getElementById("card-form").addEventListener("submit"), function (event) {
     event.preventDefault();
 
 
@@ -17,10 +17,10 @@ console.log({
 })
 
 const ncards = document.getElementById("ncards")
-const newcard = document.createElement("div")
-newcard.className = "card"
-newcard.style.backgroundColor = bgColor
-newcard.style.borderColor = borderColor
+const newCard = document.createElement("div")
+newCard.className = "card"
+newCard.style.backgroundColor = bgColor
+newCard.style.borderColor = borderColor
 
 newcard.innerHTML = `
 <img src="${imageUrl}" alt="Card Image">
@@ -29,9 +29,9 @@ newcard.innerHTML = `
 <p>${description}</p>
 </div>
 `
-ncards.appendChild(newcard)
+ncards.appendChild(newCard)
 
-document.getElementById("ncards-form")
+document.getElementById("card-form").reset()
 
 }
 
