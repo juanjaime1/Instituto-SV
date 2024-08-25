@@ -1,4 +1,4 @@
-document.getElementById("card-form").addEventListener("submit"), function (event) {
+document.getElementById("card-form").addEventListener("submit", function (event) {
     event.preventDefault();
 
 
@@ -22,7 +22,7 @@ newCard.className = "card"
 newCard.style.backgroundColor = bgColor
 newCard.style.borderColor = borderColor
 
-newcard.innerHTML = `
+newCard.innerHTML = `
 <img src="${imageUrl}" alt="Card Image">
 <div class="card-content">
 <p>${title}</p>
@@ -33,7 +33,7 @@ ncards.appendChild(newCard)
 
 document.getElementById("card-form").reset()
 
-}
+})
 
 
 

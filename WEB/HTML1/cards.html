@@ -8,10 +8,15 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
+    <div class="inicio">
+        <h3><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left-circle" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-4.5-.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5z"/>
+          </svg><a href="../../index.html">Volver a inicio</a></h3>
+                </div>
     <header>
         <h2> Nuestros cursos</h2>
     </header>
-
+    <h3 class="actuales">Capacitaciónes actuales</h3>    
     <div class="ocards">
         <section class="nuestros-cursos">
         <a href=""> <img  src="CSS/IMG/Curso-RCP-Bomberos2022.jpg" alt="RCP curso"> <h3>Curso RCP Completo</h3></a>
@@ -29,7 +34,7 @@
         <p>Aprendelo en sólo 10 meses! 1 clase semanal, durante 70 semanas de capacitación</p>
     </div>
 
-
+    <h3 class="proposals">Tus propuestas</h3>
     <div id="ncards">
        
     </div>
@@ -41,22 +46,24 @@
             <input type="text" id="title-ncard" name="title" placeholder="Nombre" required /> 
             <br/>
 
-            <label for="description">Descripción</label>
-            <input type="text" id="description-ncard" name="description" placeholder="Descripción" required/>
+            <label for="description-ncard">Descripción</label>
+            <input type="text" id="description-ncard" name="description-ncard" placeholder="Descripción" required/>
             <br/>
 
-            <label for="image">Url de Imagen</label>
-            <input type="url" id="image-ncard" name="image" placeholder="https://picsum.photos/200"/>
+            <label for="image-ncard">Url de Imagen</label>
+            <input type="url" id="image-ncard" name="image-ncard" placeholder="https://picsum.photos/200"/>
             <br/>
 
             <label for="card-bg-color">Color de fondo</label>
             <input type="color"
+            id="card-bg-color"
             name="card-bg-color"
             value="#ffffff"/>
             <br/>
 
             <label for="card-border-color">Color del borde</label>
             <input type="color"
+            id="card-border-color"
             name="card-border-color"
             value="#000000"/>
             <br/>
