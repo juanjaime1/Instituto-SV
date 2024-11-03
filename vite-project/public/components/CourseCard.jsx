@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 function CourseCard({ image, altText, title, description, detailsLink }) {
   return (
     <div className="cards">

@@ -1,24 +1,27 @@
 import React from 'react';
 import CourseCard from './CourseCard';
+import rcp from './IMG/Curso-RCP-Bomberos2022.jpg';
+import primerosaux from './IMG/primerosauxilios640.jpg';
+import facturacion from './IMG/facturacion.jpg';
 
 function CourseList() {
   const courses = [
     {
-      image: "WEB/HTML1/CSS/IMG/Curso-RCP-Bomberos2022.jpg",
+      image: rcp, 
       altText: "RCP curso",
       title: "Curso RCP Completo",
       description: "Aprendelo en sólo 3 meses! 1 clase semanal, durante 12 semanas de capacitación",
       detailsLink: "WEB/HTML1/cards.html"
     },
     {
-      image: "WEB/HTML1/CSS/IMG/primerosauxilios640.jpg",
+      image: primerosaux,
       altText: "Paramédico profesional",
       title: "Curso de Paramédico Profesional",
       description: "Aprendelo en sólo 30 meses! 1 clase semanal, durante 130 semanas de capacitación",
       detailsLink: "WEB/HTML1/cards.html"
     },
     {
-      image: "WEB/HTML1/CSS/IMG/facturacion.jpg",
+      image: facturacion,
       altText: "Facturación Médica",
       title: "Curso de Facturación Médica",
       description: "En este curso aprenderás a interpretar documentos médicos, obras sociales, y más.",
