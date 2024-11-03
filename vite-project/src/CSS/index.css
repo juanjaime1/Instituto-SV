@@ -1,5 +1,5 @@
     
-body.index{
+body{
 
     background-image: url(./IMG/Star_of_life.svg.png);
     background-color: lightblue;
@@ -15,14 +15,14 @@ body.index{
     justify-content: center;
     padding: 15px;
    }
-    body.index header h1.title{
+    header h1.title{
         font-weight: 200;
     background: black;
     opacity: 0.7;
     width: 200px;
     } 
 
-    body.index header h2.fixed{
+    header h2.fixed{
         position:fixed;
         color: rgb(71, 11, 11);
         top: 0;
@@ -37,7 +37,7 @@ body.index{
     
    }
 
-   body.index header div.nav-container nav ul{
+   header div.nav-container nav ul{
     list-style: none;
     display: flex;
     flex-direction: row;
@@ -62,16 +62,16 @@ body.index{
     }
   
 
-    body.index main section.mas-vendidos{
+    section.mas-vendidos{
         text-align:-webkit-center
     }
 
-    body.index main section.mas-vendidos h2{
+     section.mas-vendidos h2{
     width: 300px;
     background-color: grey;
     }
 
-    body.index main section.mas-vendidos article.contenedor-cursos{
+     section.mas-vendidos article.contenedor-cursos{
         display: flex;
         border: outset;
         width: 60%;
@@ -81,45 +81,44 @@ body.index{
         margin: 10px;
         padding: 10px;
         justify-content: center;
-        /* flex-flow: wrap-reverse;
-        justify-content: start;
+        flex-flow: wrap-reverse;
         flex-direction: row;
-        gap: 15px; */
+        gap: 15px;
     }
-    body.index main section.mas-vendidos article.contenedor-cursos img{
+     section.mas-vendidos article.contenedor-cursos img{
         color: white;
         border-radius: 15px;
         width: 40%;
        
     }
-    body.index main section.mas-vendidos article.contenedor-cursos a{
+     section.mas-vendidos article.contenedor-cursos a{
         width: 20%;
         color: white;
         text-decoration: none;
         
 }
         
-        body.index main section.mas-vendidos article.contenedor-cursos h3{
+         section.mas-vendidos article.contenedor-cursos h3{
         padding: 10px 0;
         background-color: grey;
         width: 30%;
         color: white;
 
     }
-    body.index main section.view-more article.viewmore div.more img{
+     section.view-more article.viewmore div.more img{
         width: 25%;
     }
 
-    body.index main section.view-more article.viewmore div.more h3{
+     section.view-more article.viewmore div.more h3{
         background: black;
         width: 20%;
     }
-    body.index main section.view-more article.viewmore div.more a{
+     section.view-more article.viewmore div.more a{
     text-decoration: none;
     color: white;
     
 }
-    body.index main section.about-us p{
+     section.about-us p{
         padding: 2px;
         margin: 15px;
         background-color: grey;
@@ -128,28 +127,30 @@ body.index{
        
     }
 
-    body.index main article.maps span{
+     section.maps span{
         color: white;
         background-color: #6c1f1f;
         text-align: center;
         display: flex;
         justify-content: center;
-        width: 30%;
+    }
+    section.maps article{
+        display: flex;
+        justify-content: center;    
     }
     
-
 span.red-span{
 color: white;
 background: brown;
 }
-body.index main section.about-us{
+section.about-us{
 display: flex;
         flex-direction: column;
         align-items: flex-start;
         text-align:start ;
 }
   
-    body.index main section.contacto{
+    section.contacto{
         color: white;
         bottom: 0;
     }
@@ -165,11 +166,11 @@ display: flex;
 
     }
 
-body.index footer.footer-container div ul li a{
+footer.footer-container div ul li a{
     text-decoration: none;
     color: white;
 }
-body.index footer.footer-container div.copy-div{
+footer.footer-container div.copy-div{
     color: white;
     text-align: center;
     
@@ -185,15 +186,15 @@ body.index footer.footer-container div.copy-div{
 
    @media screen and (max-width: 650px){
 
-       body.index header div.nav-container nav ul{
+      header div.nav-container nav ul{
         display: flex;
         flex-direction: column;
         padding: 0px;
     }
-    body.index main section.mas-vendidos article.contenedor-cursos img{
+    section.mas-vendidos article.contenedor-cursos img{
         width: 60%;
     }
-        body.index main section.view-more article.viewmore div.more img{
+       section.view-more article.viewmore div.more img{
             width: 30%;
         }
 }

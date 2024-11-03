@@ -23,7 +23,7 @@ header{
     opacity: 0.9;
     text-align: center;
 }
-body h3.actuales{
+h3.actuales{
     text-align: center;
     background-color: gray;
     opacity: 0.8;

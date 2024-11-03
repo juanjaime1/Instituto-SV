@@ -24,8 +24,9 @@ function AboutUs() {
         </p>
       </section>
 
-      <article className="maps">
+      <section className="maps">
         <span className="maps-span">Encontranos en Córdoba!</span>
+        <article>
         <iframe
           className="ubication"
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3405.019563336753!2d-64.18715932459857!3d-31.41358707426308!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432a282beee6753%3A0xe2c1a581a9756aa7!2sRivera%20Indarte%20175%2C%20X5003%20C%C3%B3rdoba!5e0!3m2!1ses!2sar!4v1722124015904!5m2!1ses!2sar"
@@ -36,7 +37,8 @@ function AboutUs() {
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"
         ></iframe>
-      </article>
+        </article>
+      </section>
     </>
   );
 }

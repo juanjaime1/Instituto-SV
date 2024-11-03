@@ -12,6 +12,7 @@ function CourseList() {
       title: "Curso RCP Completo",
       description: "Aprendelo en sólo 3 meses! 1 clase semanal, durante 12 semanas de capacitación",
       detailsLink: "WEB/HTML1/cards.html"
+  
     },
     {
       image: primerosaux,
